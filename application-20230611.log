@@ -1,0 +1,266 @@
+2023-06-11 10:27:08.320 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:27:08.321 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:27:08.337 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:27:08.337 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:27:08.347 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:60) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:29) [classes/:?]
+2023-06-11 10:27:08.349 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:27:08.349 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:27:08.353 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:27:08.353 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:27:08.354 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while updating a car: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5 WHERE car_id = 'Tesla'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.update(CarDAO.java:79) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:33) [classes/:?]
+2023-06-11 10:27:08.354 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:27:08.354 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:27:08.354 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while deleting a brand: 
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1536) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.delete(CarDAO.java:97) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:35) [classes/:?]
+2023-06-11 10:27:08.355 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:31:01.122 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:31:01.123 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:31:01.130 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:31:01.130 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:31:01.137 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:56) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:29) [classes/:?]
+2023-06-11 10:31:01.138 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:31:01.138 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:31:01.140 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:31:01.140 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:31:01.141 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while updating a car: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5 WHERE car_id = 'Tesla'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.update(CarDAO.java:75) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:33) [classes/:?]
+2023-06-11 10:31:01.141 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:31:01.141 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:31:01.141 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while deleting a brand: 
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1536) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.delete(CarDAO.java:93) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:35) [classes/:?]
+2023-06-11 10:31:01.141 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:33:03.534 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:33:03.535 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:33:03.542 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:33:03.542 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:33:03.550 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:56) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:29) [classes/:?]
+2023-06-11 10:33:03.551 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:33:03.551 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:33:03.553 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:33:03.553 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:33:03.554 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while updating a car: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6 WHERE car_id = 'Nissan'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.update(CarDAO.java:75) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:33) [classes/:?]
+2023-06-11 10:33:03.554 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:33:03.554 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:33:03.554 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while deleting a brand: 
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1536) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.delete(CarDAO.java:93) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:35) [classes/:?]
+2023-06-11 10:33:03.555 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:39:18.712 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:39:18.713 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:39:18.720 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:39:18.720 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:39:18.727 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:56) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:29) [classes/:?]
+2023-06-11 10:39:18.729 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:39:18.729 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:39:18.731 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:39:18.731 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:39:18.731 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while updating a car: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6 WHERE car_id = 'Nissan'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.update(CarDAO.java:75) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:33) [classes/:?]
+2023-06-11 10:39:18.731 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:39:18.731 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:39:18.732 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while deleting a brand: 
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1536) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.delete(CarDAO.java:93) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:35) [classes/:?]
+2023-06-11 10:39:18.732 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.898 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.900 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:52:43.908 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:52:43.908 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:52:43.917 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:56) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:29) [classes/:?]
+2023-06-11 10:52:43.919 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:52:43.919 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:52:43.921 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.921 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.921 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while updating a car: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6 WHERE car_id = 'Nissan'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.update(CarDAO.java:75) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:33) [classes/:?]
+2023-06-11 10:52:43.922 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.922 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.922 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while deleting a brand: 
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1536) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.delete(CarDAO.java:93) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:35) [classes/:?]
+2023-06-11 10:52:43.922 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:52:43.922 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.566 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.567 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:55:23.574 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:55:23.574 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:55:23.582 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:56) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:29) [classes/:?]
+2023-06-11 10:55:23.583 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:55:23.583 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@2f08c4b
+2023-06-11 10:55:23.585 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.585 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.586 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while updating a car: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2 WHERE car_id = 'Mercedes'' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.update(CarDAO.java:75) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:35) [classes/:?]
+2023-06-11 10:55:23.586 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.586 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.586 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while deleting a brand: 
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1536) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.delete(CarDAO.java:93) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:37) [classes/:?]
+2023-06-11 10:55:23.586 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
+2023-06-11 10:55:23.587 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190

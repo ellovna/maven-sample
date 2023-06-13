@@ -1,8 +1,13 @@
 package com.solvd.laba.concurrency;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.concurrent.*;
 
 public class ThreadMain {
+    private static final Logger LOGGER = LogManager.getLogger(ThreadMain.class);
+
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         Runnable runnable = new Runnable() {
             @Override
@@ -12,7 +17,8 @@ public class ThreadMain {
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                System.out.println("Custom thread (runnable) message: " + Thread.currentThread().getId());
+                //System.out.println("Custom thread (runnable) message: " + Thread.currentThread().getId());
+                LOGGER.info("Custom thread (runnable) message: " + Thread.currentThread().getId());
             }
         };
         Thread thread1 = new Thread(runnable);
@@ -23,7 +29,8 @@ public class ThreadMain {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println("Custom thread (thread) message: " + Thread.currentThread().getId());
+            //System.out.println("Custom thread (thread) message: " + Thread.currentThread().getId());
+            LOGGER.info("Custom thread (thread) message: " + Thread.currentThread().getId());
         });
 
         Callable<String> callable = new Callable<String>() {
@@ -45,16 +52,20 @@ public class ThreadMain {
 
         Future <String> future = executorService.submit(callable);
         if(!future.isDone()){
-            System.out.println("Callable is not finished yet");
+            //System.out.println("Callable is not finished yet");
+            LOGGER.info("Callable is not finished yet");
         }
         //System.out.println(future.get());
-        System.out.println("Callable is executed on service");
+        //System.out.println("Callable is executed on service");
+        LOGGER.info("Callable is executed on service");
+
         executorService.shutdown();
 
         //executorService.execute(thread1);
         //executorService.execute(thread2);
 
-        System.out.println("Main thread message: " + Thread.currentThread().getId());
+        //System.out.println("Main thread message: " + Thread.currentThread().getId());
+        LOGGER.info("Main thread message: " + Thread.currentThread().getId());
 
         //while(!future.isDone()) System.out.println("Callable is not finished yet");
     }

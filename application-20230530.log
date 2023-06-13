@@ -1,0 +1,86 @@
+2023-05-30 12:09:16.124 [main] DEBUG com.solvd.laba.lambda.Test - Debug Message Logged !!!
+2023-05-30 12:09:16.125 [main] INFO  com.solvd.laba.lambda.Test - Info Message Logged !!!
+2023-05-30 12:09:16.125 [main] ERROR com.solvd.laba.lambda.Test - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.solvd.laba.lambda.Test.main(Test.java:31) [classes/:?]
+2023-05-30 12:09:16.131 [main] DEBUG com.solvd.laba.lambda.Test - This is a debug message
+2023-05-30 12:09:16.131 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:09:16.131 [main] INFO  com.solvd.laba.lambda.Test - getColor
+2023-05-30 12:09:16.131 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:09:16.138 [main] INFO  com.solvd.laba.lambda.Test - ----------------------------------------------------------
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - Not Lambda
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - It's lambda
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - Trying to print with logger
+2023-05-30 12:09:16.139 [main] INFO  com.solvd.laba.lambda.Test - hi!
+2023-05-30 12:09:16.140 [main] INFO  com.solvd.laba.lambda.Test - {lambda=com.solvd.laba.lambda.Test$$Lambda$116/0x0000000800212840@732d0d24, second=com.solvd.laba.lambda.Test$$Lambda$117/0x0000000800212c40@1fb19a0}
+2023-05-30 12:09:16.140 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:09:16.141 [main] DEBUG com.solvd.laba.lambda.Test - [Mercedes]
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 3
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 4
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 5
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 6
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 7
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 8
+2023-05-30 12:09:16.142 [main] INFO  com.solvd.laba.lambda.Test - 9
+2023-05-30 12:09:16.146 [main] INFO  com.solvd.laba.lambda.Test - IntSummaryStatistics{count=5, sum=147, min=1, average=29.400000, max=99}
+2023-05-30 12:11:54.202 [main] DEBUG com.solvd.laba.lambda.Test - Debug Message Logged !!!
+2023-05-30 12:11:54.203 [main] INFO  com.solvd.laba.lambda.Test - Info Message Logged !!!
+2023-05-30 12:11:54.203 [main] ERROR com.solvd.laba.lambda.Test - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.solvd.laba.lambda.Test.main(Test.java:31) [classes/:?]
+2023-05-30 12:11:54.210 [main] DEBUG com.solvd.laba.lambda.Test - This is a debug message
+2023-05-30 12:11:54.210 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:11:54.210 [main] INFO  com.solvd.laba.lambda.Test - getColor
+2023-05-30 12:11:54.210 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:11:54.217 [main] INFO  com.solvd.laba.lambda.Test - ----------------------------------------------------------
+2023-05-30 12:11:54.217 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:11:54.217 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:11:54.218 [main] INFO  com.solvd.laba.lambda.Test - Not Lambda
+2023-05-30 12:11:54.218 [main] INFO  com.solvd.laba.lambda.Test - It's lambda
+2023-05-30 12:11:54.218 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:11:54.218 [main] INFO  com.solvd.laba.lambda.Test - Trying to print with logger
+2023-05-30 12:11:54.218 [main] INFO  com.solvd.laba.lambda.Test - hi!
+2023-05-30 12:11:54.218 [main] INFO  com.solvd.laba.lambda.Test - {lambda=com.solvd.laba.lambda.Test$$Lambda$116/0x0000000800212840@732d0d24, second=com.solvd.laba.lambda.Test$$Lambda$117/0x0000000800212c40@1fb19a0}
+2023-05-30 12:11:54.219 [main] INFO  com.solvd.laba.lambda.Test - [Mercedes]
+2023-05-30 12:11:54.219 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:11:54.219 [main] DEBUG com.solvd.laba.lambda.Test - [Mercedes]
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 3
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 4
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 5
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 6
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 7
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 8
+2023-05-30 12:11:54.221 [main] INFO  com.solvd.laba.lambda.Test - 9
+2023-05-30 12:11:54.224 [main] INFO  com.solvd.laba.lambda.Test - IntSummaryStatistics{count=5, sum=147, min=1, average=29.400000, max=99}
+2023-05-30 12:12:48.313 [main] DEBUG com.solvd.laba.lambda.Test - Debug Message Logged !!!
+2023-05-30 12:12:48.314 [main] INFO  com.solvd.laba.lambda.Test - Info Message Logged !!!
+2023-05-30 12:12:48.314 [main] ERROR com.solvd.laba.lambda.Test - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.solvd.laba.lambda.Test.main(Test.java:31) [classes/:?]
+2023-05-30 12:12:48.319 [main] DEBUG com.solvd.laba.lambda.Test - This is a debug message
+2023-05-30 12:12:48.319 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:12:48.319 [main] INFO  com.solvd.laba.lambda.Test - getColor
+2023-05-30 12:12:48.319 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:12:48.326 [main] INFO  com.solvd.laba.lambda.Test - ----------------------------------------------------------
+2023-05-30 12:12:48.326 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:12:48.327 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:12:48.327 [main] INFO  com.solvd.laba.lambda.Test - Not Lambda
+2023-05-30 12:12:48.327 [main] INFO  com.solvd.laba.lambda.Test - It's lambda
+2023-05-30 12:12:48.327 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:12:48.328 [main] INFO  com.solvd.laba.lambda.Test - Trying to print with logger
+2023-05-30 12:12:48.328 [main] INFO  com.solvd.laba.lambda.Test - hi!
+2023-05-30 12:12:48.328 [main] INFO  com.solvd.laba.lambda.Test - {lambda=com.solvd.laba.lambda.Test$$Lambda$116/0x0000000800212840@732d0d24, second=com.solvd.laba.lambda.Test$$Lambda$117/0x0000000800212c40@1fb19a0}
+2023-05-30 12:12:48.328 [main] INFO  com.solvd.laba.lambda.Test - [Mercedes]
+2023-05-30 12:12:48.329 [main] INFO  com.solvd.laba.lambda.Test - -------------------------------------------------------
+2023-05-30 12:12:48.329 [main] DEBUG com.solvd.laba.lambda.Test - [Mercedes]
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 3
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 4
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 5
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 6
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 7
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 8
+2023-05-30 12:12:48.330 [main] INFO  com.solvd.laba.lambda.Test - 9
+2023-05-30 12:12:48.333 [main] INFO  com.solvd.laba.lambda.Test - IntSummaryStatistics{count=5, sum=147, min=1, average=29.400000, max=99}

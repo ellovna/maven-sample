@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <car id="1">
+        <brand>Toyota</brand>
+        <model>Camry</model>
+        <year>2022</year>
+        <price>25000</price>
+    </car>
+
+    <car id="2">
+        <brand>Nissan</brand>
+        <model>Altima</model>
+        <year>2023</year>
+        <price>15000</price>
+    </car>
+
+    <car id="3">
+        <brand>BMW</brand>
+        <model>X5</model>
+        <year>2000</year>
+        <price>8000</price>
+    </car>
+
+
+</cars>
