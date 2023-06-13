@@ -1,5 +1,8 @@
 package com.solvd.laba.xmlparser;
 
+import com.solvd.laba.database.dao.CarDAO;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -13,6 +16,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class CarXmlParserRunner {
+    private static final Logger LOGGER = LogManager.getLogger(CarXmlParserRunner.class);
     public static void main(String[] args) {
         // reading xml documents using DOM
         // Java DOM parser: parses xml document by loading
@@ -20,36 +24,38 @@ public class CarXmlParserRunner {
         // tree in memory
         try {
             File xmlDoc = new File("src/main/java/com/solvd/laba/xmlparser/cars.xml");
-            //File xmlDoc1 = new File("src/main/java/com/laba/xmlparser/electricCar.xml");
             DocumentBuilderFactory dbFact = DocumentBuilderFactory.newInstance();
             DocumentBuilder dbBuild = dbFact.newDocumentBuilder();
             Document doc = dbBuild.parse(xmlDoc);
-            //Document doc1 = dbBuild.parse(xmlDoc1);
+
 
             NodeList nList = doc.getElementsByTagName("car");
-            //NodeList nList1 = doc1.getElementsByTagName("electricCars");
+
 
             // Read the xml document
-
             for(int i=0;i<nList.getLength();i++){
                 Node nNode = nList.item(i);
-                System.out.println("Node name " + nNode.getNodeName() + " " + (i+1));
+                //System.out.println("Node name " + nNode.getNodeName() + " " + (i+1));
+                LOGGER.info("Node name " + nNode.getNodeName() + " " + (i+1));
                 if(nNode.getNodeType()== Node.ELEMENT_NODE){
                     Element eElement = (Element) nNode;
-                    System.out.println("Car id: " + eElement.getAttribute("id"));
-                    System.out.println("Car brand: " +
-                            eElement.getElementsByTagName("brand").item(0).getTextContent());
-                    System.out.println("Car model: " +
-                            eElement.getElementsByTagName("model").item(0).getTextContent());
-                    System.out.println("Car year: " +
-                            eElement.getElementsByTagName("year").item(0).getTextContent());
-                    System.out.println("Car price: " +
-                            eElement.getElementsByTagName("price").item(0).getTextContent());
-                    System.out.println("---------------------------------------------------------");
+                    //System.out.println("Car id: " + eElement.getAttribute("id"));
+                    LOGGER.info("Car id: " + eElement.getAttribute("id"));
+                    //System.out.println("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
+                    LOGGER.info("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
+                    //System.out.println("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());
+                    LOGGER.info("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());
+                    //System.out.println("Car year: " + eElement.getElementsByTagName("year").item(0).getTextContent());
+                    LOGGER.info("Car year: " + eElement.getElementsByTagName("year").item(0).getTextContent());
+                    //System.out.println("Car price: " + eElement.getElementsByTagName("price").item(0).getTextContent());
+                    LOGGER.info("Car price: " + eElement.getElementsByTagName("price").item(0).getTextContent());
+                    //System.out.println("---------------------------------------------------------");
+                    LOGGER.info("------------------------------------------------------------------");
                 }
 
             }
-            System.out.println("-----------------------------------------");
+            //System.out.println("-----------------------------------------");
+            LOGGER.info("--------------------------------------------------");
 
 
         } catch (ParserConfigurationException | IOException | SAXException e) {
