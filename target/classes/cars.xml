@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    Car <car id="1">
+        <brand>Toyota</brand>
+        <model>Camry</model>
+        <year>2022</year>
+        <price>$25000</price>
+    </car>
+
+    <car id="2">
+        <brand>Nissan</brand>
+        <model>Altima</model>
+        <year>2023</year>
+        <price>$15000</price>
+    </car>
+
+    <car id="3">
+        <brand>BMW</brand>
+        <model>X5</model>
+        <year>2000</year>
+        <price>$8000</price>
+    </car>
+
+    Electric Car<electricCar id="1">
+        <brand>Tesla</brand>
+        <model>Model 3</model>
+        <batteryCapacity>50-82 kWh</batteryCapacity>
+        <price>$29000</price>
+    </electricCar>
+
+    <electricCar id="2">
+        <brand>Tesla</brand>
+        <model>Model X</model>
+        <batteryCapacity>100 kWh</batteryCapacity>
+        <price>$60000</price>
+    </electricCar>
+
+    <electricCar id="3">
+        <brand>Tesla</brand>
+        <model>Model Y</model>
+        <batteryCapacity>81 kWh</batteryCapacity>
+        <price>$50000</price>
+    </electricCar>
+
+    Gasoline Car<gasolineCar id="1">
+        <brand>Nissan</brand>
+        <model>Versa</model>
+        <fuelEconomy>35 mpg</fuelEconomy>
+        <price>$15000</price>
+    </gasolineCar>
+
+    <gasolineCar id="2">
+        <brand>Mitsubishi</brand>
+        <model>Mirage</model>
+        <fuelEconomy>39 mpg</fuelEconomy>
+        <price>$16000</price>
+    </gasolineCar>
+
+    <gasolineCar id="3">
+        <brand>Kia</brand>
+        <model>Rio</model>
+        <fuelEconomy>36 mpg</fuelEconomy>
+        <price>$16750</price>
+    </gasolineCar>
+
+    Sports Car<sportsCar id="1">
+        <brand>Porsche</brand>
+        <model>Cayman</model>
+        <topSpeed>200 mph</topSpeed>
+        <price>63400</price>
+    </sportsCar>
+
+    <sportsCar id="2">
+        <brand>Aston Martin</brand>
+        <model>Valkyrie AMR Pro</model>
+        <topSpeed>250 mph</topSpeed>
+        <price>55000</price>
+    </sportsCar>
+
+    <sportsCar id="3">
+        <brand>Saleen</brand>
+        <model>S7 Twin-Turbo</model>
+        <topSpeed>248 mph</topSpeed>
+        <price>80000</price>
+    </sportsCar>
+
+    Used Car<usedCar id="1">
+        <brand>Subaru</brand>
+        <model>Ascent</model>
+        <mileage>19000 miles</mileage>
+        <price>$32000</price>
+    </usedCar>
+
+    <usedCar id="2">
+        <brand>Chevrolet</brand>
+        <model>Camaro</model>
+        <mileage>6794 miles</mileage>
+        <price>$48000</price>
+    </usedCar>
+
+    <usedCar id="3">
+        <brand>Alfa Romeo</brand>
+        <model>Stelvio</model>
+        <mileage>20000 miles</mileage>
+        <price>$32560</price>
+    </usedCar>
+
+
+</cars>
