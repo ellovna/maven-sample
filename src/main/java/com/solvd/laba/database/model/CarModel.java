@@ -1,21 +1,37 @@
 package com.solvd.laba.database.model;
 
+import com.solvd.laba.database.jaxb.DateAdapter;
+
+import javax.xml.bind.annotation.*;
+import java.util.Date;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class CarModel {
+    @XmlElement(name="carId")
     private int carId;
+    @XmlElement(name = "brand")
     private String brand;
+    @XmlElement(name="model")
     private String model;
+    @XmlElement(name="year")
     private int year;
-    private String color;
+    @XmlElement(name="price")
+    private int price;
+    @XmlJavaTypeAdapter(DateAdapter.class)
+    private Date date;
 
+    public CarModel(){}
 
-    public CarModel(int carId, String brand, String model, int year, String color) {
+    public CarModel(int carId, String brand, String model, int year, int price, Date date) {
         this.carId = carId;
         this.brand = brand;
         this.model = model;
         this.year = year;
-        this.color = color;
+        this.price = price;
+        this.date = date;
+        }
 
-    }
 
     public int getId() {
         return carId;
@@ -49,11 +65,18 @@ public class CarModel {
         this.year = year;
     }
 
-    public String getColor(){
-        return color;
+    public int getPrice(){
+        return price;
     }
-    public void setColor(String color){
-        this.color = color;
+    public void setPrice(int price){
+        this.price = price;
+    }
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
 
@@ -64,7 +87,8 @@ public class CarModel {
                 ", name='" + brand + '\'' +
                 ", model ='" + model + '\'' +
                 ", year ='" + year + '\'' +
-                ", color ='" + color +
+                ", price ='" + price + '\'' +
+                "Date: " + date + '\'' +
                 '}';
     }
 

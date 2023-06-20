@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <xs:element name="carId">
+    <xs:element name="car">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="car">
+                    <xs:complexType>
+                        <xs:sequence>
+                <xs:element name="carId" type="xs:int"/>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="year" type="xs:int"/>
                 <xs:element name="price" type="xs:int"/>
+                <xs:element name="date" type="xs:date"/>
+                        </xs:sequence>
+                </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
 
+
     <xs:element name="electricCarId">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="electricCars">
+                    <xs:complexType>
+                        <xs:sequence>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="batteryCapacity" type="xs:int"/>
                 <xs:element name="price" type="xs:int"/>
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -26,10 +41,16 @@
     <xs:element name="gasolineCarId">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="gasolineCar">
+                    <xs:complexType>
+                        <xs:sequence>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="fuelEconomy" type="xs:int"/>
                 <xs:element name="price" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -37,10 +58,16 @@
     <xs:element name="sportsCarId">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="sportsCar">
+                    <xs:complexType>
+                        <xs:sequence>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="topSpeed" type="xs:int"/>
                 <xs:element name="price" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -48,10 +75,16 @@
     <xs:element name="usedCarId">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="usedCar">
+                    <xs:complexType>
+                        <xs:sequence>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="mileage" type="xs:int"/>
                 <xs:element name="price" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

@@ -1,33 +1,33 @@
-2023-06-13 12:29:08.872 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car brand: Tesla
-2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car model: Model 3
-2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car battery capacity: 50-82 kWh
-2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car price: 29000
-2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - -------------------------------------------------------------------
-2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car brand: Tesla
-2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car model: Model X
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car battery capacity: 100 kWh
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car price: 60000
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - -------------------------------------------------------------------
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car brand: Tesla
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car model: Model Y
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car battery capacity: 81 kWh
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - Electric car price: 50000
-2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xmlparser.ElectricCarXmlParserRunner - -------------------------------------------------------------------
-2023-06-13 12:36:38.046 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Node name gasolineCar 1
-2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline car brand: Nissan
-2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline car model: Versa
-2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
-2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline Car price: $15000
-2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - ------------------------------------------------------------------------------------
-2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Node name gasolineCar 2
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline car brand: Mitsubishi
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline car model: Mirage
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline Car price: $16000
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - ------------------------------------------------------------------------------------
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Node name gasolineCar 3
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline car brand: Kia
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline car model: Rio
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - Gasoline Car price: $16750
-2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xmlparser.GasolineCarXmlParserRunner - ------------------------------------------------------------------------------------
+2023-06-13 12:29:08.872 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car brand: Tesla
+2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car model: Model 3
+2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car battery capacity: 50-82 kWh
+2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car price: 29000
+2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - -------------------------------------------------------------------
+2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car brand: Tesla
+2023-06-13 12:29:08.873 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car model: Model X
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car battery capacity: 100 kWh
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car price: 60000
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - -------------------------------------------------------------------
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car brand: Tesla
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car model: Model Y
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car battery capacity: 81 kWh
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - Electric car price: 50000
+2023-06-13 12:29:08.874 [main] INFO  com.solvd.laba.xml.ElectricCarXmlParserRunner - -------------------------------------------------------------------
+2023-06-13 12:36:38.046 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Node name gasolineCar 1
+2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline car brand: Nissan
+2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline car model: Versa
+2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline Car price: $15000
+2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - ------------------------------------------------------------------------------------
+2023-06-13 12:36:38.047 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Node name gasolineCar 2
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline car brand: Mitsubishi
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline car model: Mirage
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline Car price: $16000
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - ------------------------------------------------------------------------------------
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Node name gasolineCar 3
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline car brand: Kia
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline car model: Rio
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - Gasoline Car price: $16750
+2023-06-13 12:36:38.048 [main] INFO  com.solvd.laba.xml.GasolineCarXmlParserRunner - ------------------------------------------------------------------------------------

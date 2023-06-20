@@ -119,8 +119,9 @@ public class CarDAO extends AbstractDao<CarModel> implements IDAO<CarModel> {
             String brand = resultSet.getString("brand");
             String model = resultSet.getString("model");
             int year = resultSet.getInt("year");
-            String color = resultSet.getString("color");
-            return new CarModel(car_id, brand, model, year, color);
+            int price = resultSet.getInt("price");
+            Date registrationDate = resultSet.getDate("registrationDate");
+            return new CarModel(car_id, brand, model, year, price, registrationDate);
         }
 
 }

@@ -1,7 +1,5 @@
 package com.solvd.laba.database.dao.jdbc.interfaces;
 
-import com.solvd.laba.database.model.CarModel;
-
 import java.sql.SQLException;
 import java.util.List;
 

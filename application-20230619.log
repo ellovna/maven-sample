@@ -1,0 +1,1127 @@
+2023-06-19 16:00:34.770 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:00:34.772 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:00:34.788 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 16:00:34.790 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:00:34.791 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:00:34.806 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 16:00:34.806 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:00:34.806 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:00:34.810 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 16:00:34.810 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:00:34.810 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:02:37.898 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-19 16:02:37.899 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-19 16:02:37.900 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.901 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 4
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-19 16:02:37.902 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-19 16:02:37.903 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:02:37.903 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 16:02:37.904 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 4
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 3
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-19 16:02:37.905 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.906 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-19 16:02:37.906 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 16:02:37.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 4
+2023-06-19 16:02:37.908 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 3
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 16:02:37.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-19 16:02:37.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 4
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 3
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-19 16:02:37.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-19 16:02:37.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 16:02:37.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 16:02:37.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-19 16:02:37.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 2
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 4
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 3
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-19 16:02:37.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:07:39.037 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:07:39.039 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:07:39.056 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 16:07:39.059 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:07:39.059 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:07:39.068 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 16:07:39.068 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:07:39.068 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:07:39.071 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 16:07:39.072 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:07:39.072 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:08:09.925 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:08:09.926 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:09.935 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 16:08:09.937 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:09.938 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:09.944 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 16:08:09.944 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:09.944 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:09.946 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 16:08:09.946 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:08:09.946 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:08:47.833 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:08:47.835 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:47.844 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 16:08:47.846 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:47.846 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:47.852 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 16:08:47.852 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:47.852 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:08:47.854 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 16:08:47.854 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:08:47.854 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:10:17.907 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-19 16:10:17.909 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 4
+2023-06-19 16:10:17.910 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:10:17.911 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-19 16:10:17.912 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 4
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 3
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.913 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 16:10:17.914 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 4
+2023-06-19 16:10:17.915 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 3
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 16:10:17.916 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-19 16:10:17.917 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 4
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 3
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 16:10:17.918 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 2
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-19 16:10:17.919 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 4
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 3
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-19 16:10:17.920 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 16:10:36.148 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:10:36.150 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:10:36.160 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 16:10:36.162 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:10:36.163 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:10:36.169 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 16:10:36.169 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:10:36.169 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 16:10:36.171 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 16:10:36.171 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 16:10:36.171 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 18:21:09.364 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 18:21:09.365 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:09.385 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 18:21:09.388 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:09.388 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:09.397 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 18:21:09.397 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:09.397 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:09.401 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 18:21:09.401 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 18:21:09.401 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 18:21:42.847 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 18:21:42.849 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:42.857 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:21) [classes/:?]
+2023-06-19 18:21:42.859 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:42.860 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:42.867 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while creating a car: 
+java.sql.SQLException: Field 'car_owner_car_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.create(CarDAO.java:54) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:28) [classes/:?]
+2023-06-19 18:21:42.867 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:42.868 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5471388b
+2023-06-19 18:21:42.870 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:30) [classes/:?]
+2023-06-19 18:21:42.870 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 18:21:42.870 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@29cfd92b
+2023-06-19 20:14:24.623 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-19 20:14:24.625 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-19 20:14:24.625 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 20:14:24.625 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 20:14:24.625 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 20:14:24.626 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 20:14:24.626 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.626 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-19 20:14:24.626 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-19 20:14:24.626 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-19 20:14:24.627 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-19 20:14:24.628 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 4
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-19 20:14:24.629 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.630 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-19 20:14:24.630 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-19 20:14:24.630 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 20:14:24.632 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 20:14:24.632 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 4
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 5
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-19 20:14:24.633 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 4
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 6
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-19 20:14:24.634 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 7
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 20:14:24.635 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 8
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 4
+2023-06-19 20:14:24.636 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 9
+2023-06-19 20:14:24.637 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-19 20:14:24.637 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-19 20:14:24.637 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-19 20:14:24.638 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-19 20:14:24.638 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.638 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-19 20:14:24.638 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 10
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 20:14:24.639 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 11
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 4
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 12
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-19 20:14:24.640 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 13
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 20:14:24.641 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 14
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 4
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 15
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-19 20:14:24.642 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.961 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-19 23:10:57.962 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-19 23:10:57.962 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 23:10:57.963 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 23:10:57.964 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 23:10:57.964 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.964 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-19 23:10:57.964 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 4
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-19 23:10:57.965 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.966 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-19 23:10:57.966 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-19 23:10:57.966 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:10:57.966 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 4
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 23:10:57.967 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 5
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 4
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 6
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-19 23:10:57.968 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 23:10:57.969 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 7
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 8
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.970 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 4
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 9
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-19 23:10:57.971 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 10
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 23:10:57.972 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 11
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 4
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 12
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-19 23:10:57.973 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 13
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 23:10:57.974 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 14
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 4
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 15
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-19 23:10:57.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.058 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-19 23:13:43.060 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-19 23:13:43.060 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 23:13:43.061 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 4
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-19 23:13:43.062 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.063 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 4
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 5
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.064 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 4
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 6
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-19 23:13:43.065 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 7
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 23:13:43.066 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 8
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.067 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 4
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 9
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-19 23:13:43.068 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 10
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-19 23:13:43.069 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 11
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 4
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 12
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-19 23:13:43.070 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 13
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.071 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 14
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 4
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 15
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-19 23:13:43.072 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.339 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-19 23:24:22.340 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-19 23:24:22.340 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 23:24:22.340 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 23:24:22.340 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 23:24:22.340 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-19 23:24:22.341 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 4
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.342 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.343 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 4
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 5
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-19 23:24:22.344 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 4
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 6
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-19 23:24:22.345 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 7
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-19 23:24:22.346 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 8
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.347 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 4
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 9
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 23:24:22.348 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 10
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 11
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-19 23:24:22.349 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 4
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 12
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.350 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.351 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 13
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 14
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-19 23:24:22.352 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 4
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 15
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-19 23:24:22.353 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------

@@ -1,291 +1,606 @@
-2023-06-15 10:04:29.009 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 1
-2023-06-15 10:04:29.010 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 1
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Toyota
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Camry
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2022
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: 25000
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 2
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 2
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Nissan
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Altima
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2023
-2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: 15000
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 3
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 3
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: BMW
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: X5
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2000
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: 8000
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - --------------------------------------------------
-2023-06-15 12:13:52.375 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 1
-2023-06-15 12:13:52.376 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 1
-2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Toyota
-2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Camry
-2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2022
-2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: 25000
-2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 2
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 2
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Nissan
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Altima
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2023
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: 15000
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 3
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 3
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: BMW
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: X5
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2000
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: 8000
-2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 1
-2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 1
-2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Nissan
-2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Versa
-2023-06-15 12:16:01.892 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 1
-2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 1
-2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Toyota
-2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Camry
-2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2022
-2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $25000
-2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 2
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 2
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Nissan
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Altima
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2023
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $15000
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 3
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 3
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: BMW
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: X5
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2000
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $8000
-2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 1
-2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 1
-2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Nissan
-2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Versa
-2023-06-15 12:18:45.324 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 1
-2023-06-15 12:18:45.325 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 1
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Toyota
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Camry
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2022
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $25000
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 2
-2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 2
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Nissan
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Altima
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2023
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $15000
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 3
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 3
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: BMW
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: X5
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2000
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $8000
-2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 1
-2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 1
-2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Nissan
-2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Versa
-2023-06-15 12:35:22.975 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 1
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 1
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Toyota
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Camry
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2022
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $25000
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 2
-2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 2
-2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Nissan
-2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Altima
-2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2023
-2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $15000
-2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 3
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 3
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: BMW
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: X5
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2000
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $8000
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name electricCar 1
-2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 1
-2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Tesla
-2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Model 3
-2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
-2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car price: $29000
-2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name electricCar 2
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 2
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Tesla
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Model X
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car price: $60000
-2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name electricCar 3
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 3
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Tesla
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Model Y
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car price: $50000
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 1
-2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car id: 1
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car brand: Nissan
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car model: Versa
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car price: $15000
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 2
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car id: 2
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
-2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car model: Mirage
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car price: $16000
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 3
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car id: 3
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car brand: Kia
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car model: Rio
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car price: $16750
-2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name sportsCar 1
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car id: 1
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car brand: Porsche
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car model: Cayman
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car top speed: 200 mph
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car price: 63400
-2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name sportsCar 2
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car id: 2
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car brand: Aston Martin
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car top speed: 250 mph
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car price: 55000
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name sportsCar 3
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car id: 3
-2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car brand: Saleen
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car top speed: 248 mph
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car price: 80000
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name usedCar 1
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car id: 1
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car brand: Subaru
-2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car model: Ascent
-2023-06-15 12:36:29.174 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 1
-2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 1
-2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Toyota
-2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Camry
-2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2022
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $25000
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 2
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 2
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: Nissan
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: Altima
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2023
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $15000
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name car 3
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car id: 3
-2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car brand: BMW
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car model: X5
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car year: 2000
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Car price: $8000
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name electricCar 1
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 1
-2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Tesla
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Model 3
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car price: $29000
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name electricCar 2
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 2
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Tesla
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Model X
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car price: $60000
-2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name electricCar 3
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car id: 3
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car brand: Tesla
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car model: Model Y
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Electric Car price: $50000
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 1
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car id: 1
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car brand: Nissan
-2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car model: Versa
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car price: $15000
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 2
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car id: 2
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car model: Mirage
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car price: $16000
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name gasolineCar 3
-2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car id: 3
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car brand: Kia
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car model: Rio
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Gasoline Car price: $16750
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name sportsCar 1
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car id: 1
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car brand: Porsche
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car model: Cayman
-2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car top speed: 200 mph
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car price: 63400
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name sportsCar 2
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car id: 2
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car brand: Aston Martin
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car top speed: 250 mph
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car price: 55000
-2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name sportsCar 3
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car id: 3
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car brand: Saleen
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car top speed: 248 mph
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Sports Car price: 80000
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name usedCar 1
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car id: 1
-2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car brand: Subaru
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car model: Ascent
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car mileage: 19000 miles
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car price: $32000
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name usedCar 2
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car id: 2
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car brand: Chevrolet
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car model: Camaro
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car mileage: 6794 miles
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car price: $48000
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Node name usedCar 3
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car id: 3
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car brand: Alfa Romeo
-2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car model: Stelvio
-2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car mileage: 20000 miles
-2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - Used Car price: $32560
-2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - ------------------------------------------------------------------
-2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xmlparser.CarXmlParserRunner - --------------------------------------------------
+2023-06-15 10:04:29.009 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 10:04:29.010 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: 25000
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 10:04:29.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: 15000
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: 8000
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 10:04:29.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - --------------------------------------------------
+2023-06-15 12:13:52.375 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 12:13:52.376 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: 25000
+2023-06-15 12:13:52.377 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: 15000
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: 8000
+2023-06-15 12:13:52.378 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Nissan
+2023-06-15 12:13:52.379 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Versa
+2023-06-15 12:16:01.892 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 12:16:01.894 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 12:16:01.895 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Nissan
+2023-06-15 12:16:01.896 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Versa
+2023-06-15 12:18:45.324 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 12:18:45.325 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 12:18:45.326 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 12:18:45.327 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Nissan
+2023-06-15 12:18:45.328 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Versa
+2023-06-15 12:35:22.975 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.977 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 12:35:22.978 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.979 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 12:35:22.980 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-15 12:35:22.981 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 3
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 12:35:22.982 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-15 12:35:22.983 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 3
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-15 12:35:22.984 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 12:35:22.985 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 3
+2023-06-15 12:35:22.986 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 12:35:22.987 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 12:36:29.174 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 12:36:29.175 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 12:36:29.176 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 12:36:29.177 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-15 12:36:29.178 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 3
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model Y
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 81 kWh
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $50000
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 12:36:29.179 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-15 12:36:29.180 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 3
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Kia
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Rio
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 36 mpg
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16750
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 12:36:29.181 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-15 12:36:29.182 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 3
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Saleen
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: S7 Twin-Turbo
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 248 mph
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 80000
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-15 12:36:29.183 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 2
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 3
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Alfa Romeo
+2023-06-15 12:36:29.184 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Stelvio
+2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 20000 miles
+2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32560
+2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 12:36:29.185 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - --------------------------------------------------
+2023-06-15 20:02:31.584 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.586 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 20:02:31.587 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.588 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-15 20:02:31.588 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-15 20:02:31.588 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:02:31.588 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 20:02:31.588 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.589 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-15 20:02:31.590 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 20:02:31.591 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.592 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.593 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-15 20:02:31.594 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 20:02:31.595 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 2
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-15 20:02:31.596 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.412 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 20:05:27.414 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 
+2023-06-15 20:05:27.414 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 20:05:27.414 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 20:05:27.414 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 20:05:27.414 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 20:05:27.414 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 20:05:27.415 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.416 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-15 20:05:27.417 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.418 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 20:05:27.418 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-15 20:05:27.418 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 20:05:27.418 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-15 20:05:27.419 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 20:05:27.420 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 20:05:27.421 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-15 20:05:27.422 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 20:05:27.423 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 2
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-15 20:05:27.424 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.011 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 1
+2023-06-15 20:10:30.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 1
+2023-06-15 20:10:30.012 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Toyota
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Camry
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2022
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $25000
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 2
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 2
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: Nissan
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: Altima
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2023
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $15000
+2023-06-15 20:10:30.013 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name car 3
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car id: 3
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car brand: BMW
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car model: X5
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car year: 2000
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Car price: $8000
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 1
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 
+2023-06-15 20:10:30.014 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 2
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 1
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model 3
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 50-82 kWh
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $29000
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.015 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name electricCar 3
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car id: 2
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car brand: Tesla
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car model: Model X
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car battery capacity: 100 kWh
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Electric Car price: $60000
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 1
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 20:10:30.016 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 2
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 1
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Nissan
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Versa
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 35 mpg
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $15000
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name gasolineCar 3
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car id: 2
+2023-06-15 20:10:30.017 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car brand: Mitsubishi
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car model: Mirage
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car fuel economy: 39 mpg
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Gasoline Car price: $16000
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 1
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 20:10:30.018 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 2
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 1
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Porsche
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Cayman
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 200 mph
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 63400
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.019 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name sportsCar 3
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car id: 2
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car brand: Aston Martin
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car model: Valkyrie AMR Pro
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car top speed: 250 mph
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Sports Car price: 55000
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 1
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 20:10:30.020 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 2
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 1
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Subaru
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Ascent
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 19000 miles
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $32000
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Node name usedCar 3
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car id: 2
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car brand: Chevrolet
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car model: Camaro
+2023-06-15 20:10:30.021 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car mileage: 6794 miles
+2023-06-15 20:10:30.022 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - Used Car price: $48000
+2023-06-15 20:10:30.022 [main] INFO  com.solvd.laba.xml.CarXmlParserRunner - ------------------------------------------------------------------

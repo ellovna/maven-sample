@@ -1,4 +1,4 @@
-package com.solvd.laba.xmlparser;
+package com.solvd.laba.xml;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -144,8 +144,6 @@ public class CarXmlParserRunner {
                     LOGGER.info("------------------------------------------------------------------");
                 }
             }
-
-
 
         } catch (ParserConfigurationException | IOException | SAXException e) {
             throw new RuntimeException(e);
