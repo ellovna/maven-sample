@@ -1,0 +1,28 @@
+2023-06-20 13:17:59.621 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@460f76a6
+2023-06-20 13:17:59.623 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@66971f6b
+2023-06-20 13:17:59.643 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving car: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getAll(CarDAO.java:31) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:17) [classes/:?]
+2023-06-20 13:17:59.645 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@66971f6b
+2023-06-20 13:17:59.645 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@66971f6b
+2023-06-20 13:17:59.652 [main] ERROR com.solvd.laba.database.dao.CarDAO - Error occurred while retrieving a brand: 
+java.sql.SQLException: Column 'price' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:584) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:851) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.solvd.laba.database.dao.CarDAO.extractCarFromResultSet(CarDAO.java:122) ~[classes/:?]
+	at com.solvd.laba.database.dao.CarDAO.getById(CarDAO.java:107) [classes/:?]
+	at com.solvd.laba.database.dao.CarMain.main(CarMain.java:26) [classes/:?]
+2023-06-20 13:17:59.652 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@460f76a6
+2023-06-20 13:17:59.653 [main] WARN  com.solvd.laba.database.dao.ConnectionPool - Connection is not active connections list: com.mysql.cj.jdbc.ConnectionImpl@460f76a6

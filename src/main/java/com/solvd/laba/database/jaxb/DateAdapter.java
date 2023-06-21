@@ -18,6 +18,7 @@ public class DateAdapter extends XmlAdapter<String, Date> {
     public Date unmarshal(String dateStr) throws ParseException {
         new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return dateFormat.parse(dateStr);
+
     }
 
     @Override

@@ -43,7 +43,8 @@ public class CarXmlParserRunner {
                 if(nNode.getNodeType()== Node.ELEMENT_NODE){
                     Element eElement = (Element) nNode;
                     //System.out.println("Car id: " + eElement.getAttribute("id"));
-                    LOGGER.info("Car id: " + eElement.getAttribute("id"));
+                    //LOGGER.info("Car id: " + eElement.getAttribute("carId"));
+                    LOGGER.info("Car id: " + eElement.getElementsByTagName("carId").item(0).getTextContent());
                     //System.out.println("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     LOGGER.info("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     //System.out.println("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());
@@ -66,7 +67,8 @@ public class CarXmlParserRunner {
                 if(nNode.getNodeType()== Node.ELEMENT_NODE){
                     Element eElement = (Element) nNode;
                     //System.out.println("Car id: " + eElement.getAttribute("id"));
-                    LOGGER.info("Electric Car id: " + eElement.getAttribute("id"));
+                    //LOGGER.info("Electric Car id: " + eElement.getAttribute("carId"));
+                    LOGGER.info("Electric Car id: " + eElement.getElementsByTagName("carId").item(0).getTextContent());
                     //System.out.println("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     LOGGER.info("Electric Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     //System.out.println("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());
@@ -87,7 +89,8 @@ public class CarXmlParserRunner {
                 if(nNode.getNodeType()== Node.ELEMENT_NODE){
                     Element eElement = (Element) nNode;
                     //System.out.println("Car id: " + eElement.getAttribute("id"));
-                    LOGGER.info("Gasoline Car id: " + eElement.getAttribute("id"));
+                    //LOGGER.info("Gasoline Car id: " + eElement.getAttribute("carId"));
+                    LOGGER.info("Gasoline Car id: " + eElement.getElementsByTagName("carId").item(0).getTextContent());
                     //System.out.println("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     LOGGER.info("Gasoline Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     //System.out.println("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());
@@ -109,7 +112,8 @@ public class CarXmlParserRunner {
                 if(nNode.getNodeType()== Node.ELEMENT_NODE){
                     Element eElement = (Element) nNode;
                     //System.out.println("Car id: " + eElement.getAttribute("id"));
-                    LOGGER.info("Sports Car id: " + eElement.getAttribute("id"));
+                    //LOGGER.info("Sports Car id: " + eElement.getAttribute("carId"));
+                    LOGGER.info("Sports Car id: " + eElement.getElementsByTagName("carId").item(0).getTextContent());
                     //System.out.println("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     LOGGER.info("Sports Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     //System.out.println("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());
@@ -131,7 +135,8 @@ public class CarXmlParserRunner {
                 if(nNode.getNodeType()== Node.ELEMENT_NODE){
                     Element eElement = (Element) nNode;
                     //System.out.println("Car id: " + eElement.getAttribute("id"));
-                    LOGGER.info("Used Car id: " + eElement.getAttribute("id"));
+                    //LOGGER.info("Used Car id: " + eElement.getAttribute("carId"));
+                    LOGGER.info("Used Car id: " + eElement.getElementsByTagName("carId").item(0).getTextContent());
                     //System.out.println("Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     LOGGER.info("Used Car brand: " + eElement.getElementsByTagName("brand").item(0).getTextContent());
                     //System.out.println("Car model: " + eElement.getElementsByTagName("model").item(0).getTextContent());

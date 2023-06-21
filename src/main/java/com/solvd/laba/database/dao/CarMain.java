@@ -20,8 +20,8 @@ public class CarMain {
             }
 
 
-            //CarModel newCar = new CarModel(447, "BMW", "X6", 2023, 15000, "2023-06-20 14:30:00");
-            //carDAO.create(newCar);
+            //CarModel carModel = new CarModel(1, )
+            //carDAO.create(carModel);
 
             CarModel existingCar = carDAO.getById(1);
             existingCar.setName("Toyota");

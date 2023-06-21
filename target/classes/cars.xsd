@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <xs:element name="car">
+    <xs:element name="cars">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="car">
@@ -21,16 +21,18 @@
     </xs:element>
 
 
-    <xs:element name="electricCarId">
+    <xs:element name="electricCars">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="electricCars">
+                <xs:element name="electricCar" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                <xs:element name="carId" type="xs:int"/>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="batteryCapacity" type="xs:int"/>
                 <xs:element name="price" type="xs:int"/>
+                            <xs:element name="date" type="xs:date"/>
                     </xs:sequence>
                     </xs:complexType>
                 </xs:element>
@@ -38,12 +40,13 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="gasolineCarId">
+    <xs:element name="gasolineCars">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="gasolineCar">
+                <xs:element name="gasolineCar" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                <xs:element name="carId" type="xs:int" />
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="fuelEconomy" type="xs:int"/>
@@ -55,12 +58,13 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="sportsCarId">
+    <xs:element name="sportsCars">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="sportsCar">
+                <xs:element name="sportsCar" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                <xs:element name="carId" type="xs:int"/>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="topSpeed" type="xs:int"/>
@@ -72,12 +76,13 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="usedCarId">
+    <xs:element name="usedCars">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="usedCar">
+                <xs:element name="usedCar" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                <xs:element name="carId" type="xs:int"/>
                 <xs:element name="brand" type="xs:string"/>
                 <xs:element name="model" type="xs:string"/>
                 <xs:element name="mileage" type="xs:int"/>

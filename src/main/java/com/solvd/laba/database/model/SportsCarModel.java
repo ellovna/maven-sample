@@ -3,9 +3,11 @@ package com.solvd.laba.database.model;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name = "SportsCars")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class SportsCars extends CarModel {
+public class SportsCarModel extends CarModel {
 
     @XmlElement
     private int topSpeed;
@@ -18,5 +20,5 @@ public class SportsCars extends CarModel {
         this.topSpeed = topSpeed;
     }
 
-    public SportsCars() {}
+    public SportsCarModel() {}
 }

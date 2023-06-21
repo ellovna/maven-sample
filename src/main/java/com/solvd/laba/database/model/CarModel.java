@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.*;
 import java.util.Date;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
+@XmlRootElement(name = "Car")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class CarModel {
     @XmlElement(name="carId")
@@ -18,6 +19,8 @@ public class CarModel {
     private int year;
     @XmlElement(name="price")
     private int price;
+
+    @XmlElement(name="date")
     @XmlJavaTypeAdapter(DateAdapter.class)
     private Date date;
 
@@ -74,7 +77,6 @@ public class CarModel {
     public Date getDate() {
         return date;
     }
-
     public void setDate(Date date) {
         this.date = date;
     }

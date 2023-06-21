@@ -6,116 +6,117 @@
         <brand>Toyota</brand>
         <model>Camry</model>
         <year>2022</year>
-        <price>$25000</price>
-        <date>2023-01-11</date>
+        <price>25000</price>
     </car>
     <car>
         <carId>2</carId>
         <brand>Nissan</brand>
         <model>Altima</model>
         <year>2023</year>
-        <price>$15000</price>
-        <date>2023-01-11</date>
+        <price>15000</price>
     </car>
     <car>
         <carId>3</carId>
         <brand>BMW</brand>
         <model>X5</model>
         <year>2000</year>
-        <price>$8000</price>
-        <date>2023-01-11</date>
+        <price>8000</price>
     </car>
-
-    <electricCars>
+<electricCars>
         <electricCar>
-            <electricCar id="4">
+            <carId>4</carId>
         <brand>Tesla</brand>
         <model>Model 3</model>
-        <batteryCapacity>50-82 kWh</batteryCapacity>
-        <price>$29000</price>
+        <batteryCapacity>50-82</batteryCapacity>
+        <price>29000</price>
     </electricCar>
-    <electricCar id="5">
+    <electricCar>
+        <carId>5</carId>
         <brand>Tesla</brand>
         <model>Model X</model>
-        <batteryCapacity>100 kWh</batteryCapacity>
-        <price>$60000</price>
+        <batteryCapacity>100</batteryCapacity>
+        <price>60000</price>
     </electricCar>
-    <electricCar id="6">
+    <electricCar>
+        <carId>6</carId>
         <brand>Tesla</brand>
         <model>Model Y</model>
-        <batteryCapacity>81 kWh</batteryCapacity>
-        <price>$50000</price>
+        <batteryCapacity>81</batteryCapacity>
+        <price>50000</price>
     </electricCar>
-        </electricCar>
-    </electricCars>
+</electricCars>
 
     <gasolineCars>
         <gasolineCar>
-            <gasolineCar id="7">
+            <carId>7</carId>
         <brand>Nissan</brand>
         <model>Versa</model>
-        <fuelEconomy>35 mpg</fuelEconomy>
-        <price>$15000</price>
+        <fuelEconomy>35</fuelEconomy>
+        <price>15000</price>
     </gasolineCar>
-    <gasolineCar id="8">
+    <gasolineCar>
+        <carId>8</carId>
         <brand>Mitsubishi</brand>
         <model>Mirage</model>
-        <fuelEconomy>39 mpg</fuelEconomy>
-        <price>$16000</price>
+        <fuelEconomy>39</fuelEconomy>
+        <price>16000</price>
     </gasolineCar>
-    <gasolineCar id="9">
+    <gasolineCar>
+        <carId>9</carId>
         <brand>Kia</brand>
         <model>Rio</model>
-        <fuelEconomy>36 mpg</fuelEconomy>
-        <price>$16750</price>
+        <fuelEconomy>36</fuelEconomy>
+        <price>16750</price>
     </gasolineCar>
-        </gasolineCar>
     </gasolineCars>
 
     <sportsCars>
         <sportsCar>
-            <sportsCar id="10">
+            <carId>10</carId>
         <brand>Porsche</brand>
         <model>Cayman</model>
-        <topSpeed>200 mph</topSpeed>
+        <topSpeed>200</topSpeed>
         <price>63400</price>
     </sportsCar>
-    <sportsCar id="11">
+    <sportsCar>
+        <carId>11</carId>
         <brand>Aston Martin</brand>
         <model>Valkyrie AMR Pro</model>
-        <topSpeed>250 mph</topSpeed>
+        <topSpeed>250</topSpeed>
         <price>55000</price>
     </sportsCar>
-    <sportsCar id="12">
+    <sportsCar>
+        <carId>12</carId>
         <brand>Saleen</brand>
         <model>S7 Twin-Turbo</model>
-        <topSpeed>248 mph</topSpeed>
+        <topSpeed>248</topSpeed>
         <price>80000</price>
     </sportsCar>
-        </sportsCar>
     </sportsCars>
 
-    <usedCars>
-        <usedCar>
-    <usedCar id="13">
+<usedCars>
+    <usedCar>
+        <carId>13</carId>
         <brand>Subaru</brand>
         <model>Ascent</model>
-        <mileage>19000 miles</mileage>
-        <price>$32000</price>
+        <mileage>19000</mileage>
+        <price>32000</price>
     </usedCar>
-    <usedCar id="14">
+
+    <usedCar>
+        <carId>14</carId>
         <brand>Chevrolet</brand>
         <model>Camaro</model>
-        <mileage>6794 miles</mileage>
-        <price>$48000</price>
+        <mileage>6794</mileage>
+        <price>48000</price>
     </usedCar>
-    <usedCar id="15">
+    <usedCar>
+        <carId>15</carId>
         <brand>Alfa Romeo</brand>
         <model>Stelvio</model>
-        <mileage>20000 miles</mileage>
-        <price>$32560</price>
+        <mileage>20000</mileage>
+        <price>32560</price>
     </usedCar>
-        </usedCar>
-    </usedCars>
+</usedCars>
 
 </cars>

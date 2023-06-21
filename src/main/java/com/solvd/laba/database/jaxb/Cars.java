@@ -8,7 +8,7 @@ import java.util.List;
 @XmlRootElement(name = "cars")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Cars {
-    @XmlElement(name = "carModel")
+    @XmlElement(name = "car")
     private List<CarModel> cars;
     public List<CarModel> getCar() {
         return cars;
@@ -19,43 +19,43 @@ public class Cars {
 
     @XmlElementWrapper(name = "electricCars")
     @XmlElement(name = "electricCar")
-    private List<ElectricCars> electricCars;
+    private List<ElectricCarModel> electricCars;
 
-    public List<ElectricCars> getElectricCars() {
+    public List<ElectricCarModel> getElectricCars() {
         return electricCars;
     }
-    public void setElectricCars(List<ElectricCars> electricCars) {
+    public void setElectricCars(List<ElectricCarModel> electricCars) {
         this.electricCars = electricCars;
     }
 
     @XmlElementWrapper(name = "gasolineCars")
     @XmlElement(name = "gasolineCar")
-    private List<GasolineCars> gasolineCars;
-    public List<GasolineCars> getGasolineCars() {
+    private List<GasolineCarModel> gasolineCars;
+    public List<GasolineCarModel> getGasolineCars() {
         return gasolineCars;
     }
-    public void setGasolineCars(List<GasolineCars> gasolineCars) {
+    public void setGasolineCars(List<GasolineCarModel> gasolineCars) {
         this.gasolineCars= gasolineCars;
     }
 
     @XmlElementWrapper(name = "sportsCars")
     @XmlElement(name = "sportsCar")
-    private List<SportsCars> sportsCars;
-    public List<SportsCars> getSportsCars() {
+    private List<SportsCarModel> sportsCars;
+    public List<SportsCarModel> getSportsCars() {
         return sportsCars;
     }
-    public void setSportsCars(List<SportsCars> sportsCars) {
+    public void setSportsCars(List<SportsCarModel> sportsCars) {
         this.sportsCars= sportsCars;
     }
 
     @XmlElementWrapper(name = "usedCars")
     @XmlElement(name = "usedCar")
-    private List<UsedCars> usedCars;
+    private List<UsedCarModel> usedCars;
 
-    public List<UsedCars> getUsedCars() {
+    public List<UsedCarModel> getUsedCars() {
         return usedCars;
     }
-    public void setUsedCars(List<UsedCars> usedCars) {
+    public void setUsedCars(List<UsedCarModel> usedCars) {
         this.usedCars= usedCars;
     }
 }
