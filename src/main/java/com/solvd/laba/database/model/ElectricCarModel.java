@@ -1,5 +1,7 @@
 package com.solvd.laba.database.model;
 
+import com.fasterxml.jackson.annotation.*;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -8,9 +10,14 @@ import java.util.Date;
 
 @XmlRootElement(name = "ElectricCars")
 @XmlAccessorType(XmlAccessType.FIELD)
+
+@JsonTypeName("ElectricCars")
+@JsonPropertyOrder({"carId", "brand", "model", "batteryCapacity", "date"})
+@JsonIgnoreProperties({"year", "name"})
 public class ElectricCarModel extends CarModel {
 
     @XmlElement
+    @JsonProperty("batteryCapacity")
     private int batteryCapacity;
 
     public ElectricCarModel(int CarId, String brand, String model, int batteryCapacity, int price, Date date) {

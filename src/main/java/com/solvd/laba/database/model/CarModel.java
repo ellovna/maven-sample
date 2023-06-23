@@ -1,27 +1,58 @@
 package com.solvd.laba.database.model;
 
-import com.solvd.laba.database.jaxb.DateAdapter;
+import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.solvd.laba.Cars;
+import com.solvd.laba.jaxb.DateAdapter;
+import com.solvd.laba.json.CustomSerializer;
 
 import javax.xml.bind.annotation.*;
 import java.util.Date;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
+
+
 @XmlRootElement(name = "Car")
 @XmlAccessorType(XmlAccessType.FIELD)
+
+@JsonRootName(value="Car")
+@JsonPropertyOrder({"carId", "brand", "model", "year", "price", "date"})
+@JsonIgnoreProperties({"name"})
+
+
+@JsonTypeInfo(
+        use = JsonTypeInfo.Id.NAME,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "type")
+@JsonSubTypes({
+        @JsonSubTypes.Type(value = Cars.class, name = "car"),
+        @JsonSubTypes.Type(value = ElectricCarModel.class, name = "electricCars"),
+        @JsonSubTypes.Type(value = ElectricCarModel.class, name = "gasolineCars"),
+        @JsonSubTypes.Type(value = ElectricCarModel.class, name = "sportsCars"),
+        @JsonSubTypes.Type(value = ElectricCarModel.class, name = "usedCars")
+})
 public class CarModel {
     @XmlElement(name="carId")
+    @JsonProperty("carId")
     private int carId;
     @XmlElement(name = "brand")
+    @JsonProperty("brand")
     private String brand;
     @XmlElement(name="model")
+    @JsonProperty("model")
     private String model;
     @XmlElement(name="year")
+    @JsonProperty("year")
     private int year;
     @XmlElement(name="price")
+    @JsonProperty("price")
     private int price;
 
     @XmlElement(name="date")
     @XmlJavaTypeAdapter(DateAdapter.class)
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @JsonSerialize(using = CustomSerializer.class)
     private Date date;
 
     public CarModel(){}
@@ -35,12 +66,11 @@ public class CarModel {
         this.date = date;
         }
 
-
-    public int getId() {
+    public int getCarId() {
         return carId;
     }
 
-    public void setId(int car_id) {
+    public void setCarId(int car_id) {
         this.carId = car_id;
     }
 
@@ -86,7 +116,7 @@ public class CarModel {
     public String toString() {
         return "Car{" +
                 "CarId=" + carId +
-                ", name='" + brand + '\'' +
+                ", brand='" + brand + '\'' +
                 ", model ='" + model + '\'' +
                 ", year ='" + year + '\'' +
                 ", price ='" + price + '\'' +

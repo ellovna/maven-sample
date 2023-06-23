@@ -1,6 +1,7 @@
-package com.solvd.laba.database.jaxb;
+package com.solvd.laba.jaxb;
 
 
+import com.solvd.laba.Cars;
 import com.solvd.laba.database.model.*;
 import com.solvd.laba.xml.CarXmlParserRunner;
 import org.apache.logging.log4j.LogManager;
@@ -36,7 +37,7 @@ public class CarsJaxBReader {
 
             for (CarModel car : carsList) {
                 //System.out.println("Car ID: " + car.getId());
-                LOGGER.info("Car ID: " + car.getId());
+                LOGGER.info("Car ID: " + car.getCarId());
                 //System.out.println("Brand: " + car.getName());
                 LOGGER.info("Brand: " + car.getName());
                 //System.out.println("Model: " + car.getModel());
@@ -53,7 +54,7 @@ public class CarsJaxBReader {
 
             for (ElectricCarModel electricCarModel : electricCarModelList) {
                 //System.out.println("Electric Car ID: " + electricCarModel.getId());
-                LOGGER.info("Electric Car ID: " + electricCarModel.getId());
+                LOGGER.info("Electric Car ID: " + electricCarModel.getCarId());
                 //System.out.println("Brand: " + electricCarModel.getName());
                 LOGGER.info("Brand: " + electricCarModel.getName());
                 //System.out.println("Model: " + electricCarModel.getModel());
@@ -69,7 +70,7 @@ public class CarsJaxBReader {
 
             for (GasolineCarModel gasolineCarModel : gasolineCarModelList) {
                 //System.out.println("Gasoline Car ID: " + gasolineCarModel.getId());
-                LOGGER.info("Gasoline Car ID: " + gasolineCarModel.getId());
+                LOGGER.info("Gasoline Car ID: " + gasolineCarModel.getCarId());
                 //System.out.println("Brand: " + gasolineCarModel.getName());
                 LOGGER.info("Brand: " + gasolineCarModel.getName());
                 //System.out.println("Model: " + gasolineCarModel.getModel());
@@ -85,7 +86,7 @@ public class CarsJaxBReader {
 
             for (SportsCarModel sportsCarModel : sportsCarModelList) {
                 //System.out.println("Sports Car ID: " + sportsCarModel.getId());
-                LOGGER.info("Sports Car ID: " + sportsCarModel.getId());
+                LOGGER.info("Sports Car ID: " + sportsCarModel.getCarId());
                 //System.out.println("Brand: " + sportsCarModel.getName());
                 LOGGER.info("Brand: " + sportsCarModel.getName());
                 //System.out.println("Model: " + sportsCarModel.getModel());
@@ -101,7 +102,7 @@ public class CarsJaxBReader {
 
             for (UsedCarModel usedCarModel : usedCarModelList) {
                 //System.out.println("Used Car ID: " + usedCarModel.getId());
-                LOGGER.info("Used Car ID: " + usedCarModel.getId());
+                LOGGER.info("Used Car ID: " + usedCarModel.getCarId());
                 //System.out.println("Brand: " + usedCarModel.getName());
                 LOGGER.info("Brand: " + usedCarModel.getName());
                 //System.out.println("Model: " + usedCarModel.getModel());

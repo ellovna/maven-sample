@@ -15,13 +15,13 @@ public class CarMain {
 
         try {
             List<CarModel> cars = carDAO.getAll();
-            for (CarModel car : cars) {
+            for (CarModel carModel : cars) {
                 System.out.println(cars);
             }
 
 
-            //CarModel carModel = new CarModel(1, )
-            //carDAO.create(carModel);
+            //CarModel newCar = new CarModel(1, "Mercedes");
+            //carDAO.create(newCar);
 
             CarModel existingCar = carDAO.getById(1);
             existingCar.setName("Toyota");

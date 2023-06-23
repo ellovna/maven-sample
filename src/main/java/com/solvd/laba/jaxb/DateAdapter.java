@@ -1,4 +1,4 @@
-package com.solvd.laba.database.jaxb;
+package com.solvd.laba.jaxb;
 
 import org.apache.commons.lang3.time.DateParser;
 

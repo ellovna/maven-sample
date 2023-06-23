@@ -49,7 +49,7 @@ public class CarDAO extends AbstractDao<CarModel> implements IDAO<CarModel> {
             try {
                 connection = ConnectionPool.getInstance().retrieve();
                 PreparedStatement statement = connection.prepareStatement(query);
-                statement.setInt(1, car.getId());
+                statement.setInt(1, car.getCarId());
                 statement.setString(2, car.getName());
                 statement.executeUpdate();
             } catch (SQLException e) {
@@ -68,7 +68,7 @@ public class CarDAO extends AbstractDao<CarModel> implements IDAO<CarModel> {
             try {
                 connection = ConnectionPool.getInstance().retrieve();
                 PreparedStatement statement = connection.prepareStatement(query);
-                statement.setInt(1, car.getId());
+                statement.setInt(1, car.getCarId());
                 statement.setString(2, car.getName());
                 statement.executeUpdate();
             } catch (SQLException e) {
