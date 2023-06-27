@@ -1,10 +1,9 @@
 package com.solvd.laba.json;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.solvd.laba.Cars;
-import com.solvd.laba.database.model.*;
+import com.solvd.laba.carJaxbJson.model.*;
 import com.solvd.laba.xml.CarXmlParserRunner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -47,7 +46,7 @@ public class CarJsonWriterReader {
 
 
         // Create instances of the car hierarchy classes
-        CarModel car = new CarModel();
+        CarM car = new CarM();
         car.setCarId(1);
         car.setName("Toyota");
         car.setModel("Camry");
@@ -56,7 +55,7 @@ public class CarJsonWriterReader {
         car.setDate(new Date());
 
 
-        ElectricCarModel electricCar = new ElectricCarModel();
+        ElectricCarM electricCar = new ElectricCarM();
         electricCar.setCarId(4);
         electricCar.setName("Tesla");
         electricCar.setModel("Model 3");
@@ -65,7 +64,7 @@ public class CarJsonWriterReader {
         electricCar.setDate(new Date());
 
 
-        GasolineCarModel gasolineCar = new GasolineCarModel();
+        GasolineCarM gasolineCar = new GasolineCarM();
         gasolineCar.setCarId(7);
         gasolineCar.setName("Nissan");
         gasolineCar.setModel("Versa");
@@ -74,7 +73,7 @@ public class CarJsonWriterReader {
         gasolineCar.setDate(new Date());
 
 
-        SportsCarModel sportsCar = new SportsCarModel();
+        SportsCarM sportsCar = new SportsCarM();
         sportsCar.setCarId(10);
         sportsCar.setName("Porsche");
         sportsCar.setModel("Cayman");
@@ -83,7 +82,7 @@ public class CarJsonWriterReader {
         sportsCar.setDate(new Date());
 
 
-        UsedCarModel usedCar = new UsedCarModel();
+        UsedCarM usedCar = new UsedCarM();
         usedCar.setCarId(13);
         usedCar.setName("Chevrolet");
         usedCar.setModel("Camaro");
@@ -91,7 +90,7 @@ public class CarJsonWriterReader {
         usedCar.setPrice(48000);
         usedCar.setDate(new Date());
 
-        List<CarModel> carList = Arrays.asList(car, electricCar, gasolineCar, sportsCar, usedCar);
+        List<CarM> carList = Arrays.asList(car, electricCar, gasolineCar, sportsCar, usedCar);
 
 
         // Create an array of car objects

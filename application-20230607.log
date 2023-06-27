@@ -2,49 +2,49 @@
 2023-06-07 11:18:39.390 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:20:20.551 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:20:20.562 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:20:20.568 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:20:20.568 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:20:31.102 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:20:31.113 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:20:31.120 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:20:31.120 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:21:55.200 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:21:55.220 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:21:55.224 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:21:55.224 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:26:37.057 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:26:37.069 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:26:37.074 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:26:37.074 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:26:57.349 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:26:57.360 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:26:57.364 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:26:57.364 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:27:35.467 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:27:35.478 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:27:35.484 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:27:35.484 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:30:00.083 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:30:00.095 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:30:00.101 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:30:00.101 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:30:47.794 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:30:47.805 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:30:47.809 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:30:47.809 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:32:36.493 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:32:36.504 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:32:36.507 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:32:36.507 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:33:24.797 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:33:24.809 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:33:24.813 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:33:24.813 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:39:09.339 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:39:09.353 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:39:09.355 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:39:09.355 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 11:41:12.000 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 11:41:12.011 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 11:41:12.017 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 11:41:12.017 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 12:25:01.821 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 12:25:01.847 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 12:25:01.850 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 12:25:01.850 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 12:25:06.426 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 12:25:06.438 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 12:25:06.444 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 12:25:06.444 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 12:25:08.525 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 12:25:08.538 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 12:25:08.542 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 12:25:08.542 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}
 2023-06-07 13:12:16.202 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
 2023-06-07 13:12:16.229 [main] INFO  com.solvd.laba.database.dao.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1bdf8190
-2023-06-07 13:12:16.233 [main] INFO  com.solvd.laba.database.dao.CarDAO - Car{id=0, name='null'}
+2023-06-07 13:12:16.233 [main] INFO  com.solvd.laba.database.dao.jdbc.CarDAO - Car{id=0, name='null'}

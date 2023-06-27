@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.*;
 
-public class ConnectionPool {
+public abstract class ConnectionPool{
     private static final Logger LOGGER = LogManager.getLogger(ConnectionPool.class);
     private static final int CON_POOL_SIZE = 5;
     private static final Properties properties = new Properties();
@@ -18,7 +18,7 @@ public class ConnectionPool {
     private static final String password;
     private final List<Connection> conPool = new ArrayList<>(CON_POOL_SIZE);
     private final List<Connection> activeConnections = new ArrayList<>();
-    private ConnectionPool() {
+    ConnectionPool() {
         for (int i = 0; i < CON_POOL_SIZE; i++) {
             Connection connection = null;
             try {
@@ -32,7 +32,17 @@ public class ConnectionPool {
     private static ConnectionPool instance = null;
     public static synchronized ConnectionPool getInstance() {
         if (instance == null) {
-            instance = new ConnectionPool();
+            instance = new ConnectionPool() {
+                @Override
+                public void releaseConnection(Connection connection) throws SQLException, SQLException {
+
+                }
+
+                @Override
+                public void shutdown() throws SQLException {
+
+                }
+            };
         }
         return instance;
     }
@@ -46,7 +56,7 @@ public class ConnectionPool {
         userName = properties.getProperty("db.username");
         password = properties.getProperty("db.password");
     }
-    Connection getConnection() {
+    public Connection getConnection() {
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url, userName, password);
@@ -75,6 +85,12 @@ public class ConnectionPool {
             } else {
                 LOGGER.warn("Connection is not active connections list: " + c.toString());
             }
+
         }
+
     }
+
+    public abstract void releaseConnection(Connection connection) throws SQLException, SQLException;
+
+    public abstract void shutdown() throws SQLException;
 }
