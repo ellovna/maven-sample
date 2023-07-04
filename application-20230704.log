@@ -1,0 +1,145 @@
+2023-07-04 00:05:35.056 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:05:35.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:05:35.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:05:35.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:05:35.063 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:06:52.927 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:06:52.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:06:52.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:06:52.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:06:52.933 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:06:52.993 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:06:53.247 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1046056441.
+2023-07-04 00:06:53.249 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:06:53.264 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 3(Integer)
+2023-07-04 00:06:53.287 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:06:53.297 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3e598df9]
+2023-07-04 00:06:53.297 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1046056441 to pool.
+2023-07-04 00:20:09.619 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:20:09.626 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:20:09.626 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:20:09.626 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:20:09.626 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:20:09.690 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:20:09.889 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:20:09.891 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:20:09.906 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 3(Integer)
+2023-07-04 00:20:09.921 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:20:09.929 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:20:09.929 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:27:50.589 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:27:50.595 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:27:50.596 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:27:50.596 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:27:50.596 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:27:50.655 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:27:50.919 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:27:50.921 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:27:50.936 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 21(Integer)
+2023-07-04 00:27:50.963 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 0
+2023-07-04 00:27:50.964 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:27:50.965 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:28:40.063 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:28:40.070 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:28:40.070 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:28:40.070 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:28:40.070 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:28:40.127 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:28:40.321 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:28:40.322 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:28:40.338 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 00:28:40.352 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:28:40.363 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:28:40.363 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:36:18.543 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:36:18.551 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:36:18.551 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:36:18.551 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:36:18.551 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:36:18.618 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:36:18.809 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:36:18.810 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:36:18.826 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 00:36:18.842 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:36:18.850 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:36:18.851 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:37:39.741 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:37:39.749 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:37:39.749 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:37:39.749 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:37:39.750 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:37:39.812 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:37:40.000 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:37:40.002 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:37:40.018 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 00:37:40.030 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:37:40.039 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:37:40.039 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:38:38.337 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:38:38.343 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:38:38.343 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:38:38.343 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:38:38.343 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:38:38.404 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:38:38.601 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:38:38.603 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:38:38.619 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 00:38:38.632 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:38:38.639 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:38:38.639 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:42:12.527 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:42:12.534 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:42:12.534 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:42:12.534 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:42:12.534 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:42:12.596 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:42:12.781 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:42:12.783 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:42:12.798 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 00:42:12.812 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:42:12.820 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:42:12.820 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:44:21.164 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:44:21.170 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:44:21.170 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:44:21.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:44:21.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:44:21.232 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 00:44:21.432 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 00:44:21.434 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 00:44:21.449 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 00:44:21.464 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 00:44:21.472 [main] INFO  com.solvd.laba.database.mybatis.MyBatisRunner - CAR FROM DATABASE: CarModel{car_id=33, brand='Aston Martin', model='null', year=0, color='null', car_owner_car_id=0, car_owner_owner_name='null'}
+2023-07-04 00:44:21.472 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 00:44:21.473 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 00:55:25.851 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 00:55:25.858 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:55:25.858 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:55:25.858 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 00:55:25.859 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 08:08:58.405 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 08:08:58.413 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 08:08:58.413 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 08:08:58.413 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 08:08:58.413 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 08:08:58.480 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 08:08:58.754 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 136312946.
+2023-07-04 08:08:58.756 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 08:08:58.771 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 08:08:58.795 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 08:08:58.803 [main] INFO  com.solvd.laba.database.mybatis.MyBatisRunner - CAR FROM DATABASE: CarModel{car_id=33, brand='Aston Martin', model='null', year=0, color='null', car_owner_car_id=0, car_owner_owner_name='null'}
+2023-07-04 08:08:58.803 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@81ff872]
+2023-07-04 08:08:58.803 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 136312946 to pool.
+2023-07-04 10:24:09.205 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-07-04 10:24:09.212 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 10:24:09.212 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 10:24:09.212 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 10:24:09.212 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-07-04 10:24:09.268 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-07-04 10:24:09.525 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 327840833.
+2023-07-04 10:24:09.527 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==>  Preparing: select car_id, brand as brand from Car where car_id = ?
+2023-07-04 10:24:09.543 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - ==> Parameters: 33(Integer)
+2023-07-04 10:24:09.571 [main] DEBUG com.solvd.laba.database.mapper.CarMapperJava.selectCarById - <==      Total: 1
+2023-07-04 10:24:09.583 [main] INFO  com.solvd.laba.database.mybatis.MyBatisRunner - CAR FROM DATABASE: CarModel{car_id=33, brand='Aston Martin', model='null', year=0, color='null', car_owner_car_id=0, car_owner_owner_name='null'}
+2023-07-04 10:24:09.584 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@138a7441]
+2023-07-04 10:24:09.584 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 327840833 to pool.

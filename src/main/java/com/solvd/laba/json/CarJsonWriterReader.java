@@ -15,7 +15,7 @@ import java.util.*;
 public class CarJsonWriterReader {
 
     private static final Logger LOGGER = LogManager.getLogger(CarXmlParserRunner.class);
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args)  {
         // Create car objects
         /*CarModel car = new CarModel(1, "Mercedes", "Benz", 2023, 292929, new Date());
         ElectricCarModel electricCar = new ElectricCarModel(2, "Tesla", "Model S", 95000, 50, new Date());

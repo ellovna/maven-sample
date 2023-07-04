@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.laba.database.mapper.CarAccidentMapper">
+    <resultMap id="carAccidentResultMap"
+               type="com.solvd.laba.database.model.CarAccidentModel">
+        <id property="car_id" column="CAR_ID"/>
+        <result property="accident_date" column="ACCIDENT_DATE"/>
+        <result property="value" column="value"/>
+
+    </resultMap>
+
+</mapper>

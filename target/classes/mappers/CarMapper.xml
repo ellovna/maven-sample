@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.laba.database.mapper.CarMapper">
+
+    <select id="selectCarById"
+            resultMap="com.solvd.laba.database.mapper.CarMapper.carResultMap">
+        select C.car_id as car_id,
+        C.brand as brand,
+        CA.car_id as car_id,
+        CA.brand as brand
+        CA value as ca_value from Car C
+        join Car_Accident CA on C.car_id = CA.car_id
+        where C.car_id = #{car_id}
+    </select>
+
+    <resultMap id="carResultMap" type="com.solvd.laba.database.model.CarModel">
+        <id property="car_id" column="CAR_ID"/>
+        <result property="brand" column="BRAND"/>
+        <collection property="CarAccidentList"
+                    resultMap="com.solvd.laba.database.mapper.CarAccidentMapper.carAccidentResultMap"/>
+    </resultMap>
+
+</mapper>
+

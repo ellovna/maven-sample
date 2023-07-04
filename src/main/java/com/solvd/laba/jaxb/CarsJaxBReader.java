@@ -19,7 +19,7 @@ import java.util.List;
 public class CarsJaxBReader {
     private static final Logger LOGGER = LogManager.getLogger(CarXmlParserRunner.class);
 
-    public static void main(String[] args) throws JAXBException {
+    public static void main(String[] args)  {
 
         try {
             JAXBContext context = JAXBContext.newInstance(Cars.class);
